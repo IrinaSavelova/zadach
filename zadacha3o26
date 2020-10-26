@@ -1,0 +1,5 @@
+n = int(input())
+slova = set()
+for i in range(n):
+    slova.update(input().split())
+print(len(slova))
